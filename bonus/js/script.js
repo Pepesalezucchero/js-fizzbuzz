@@ -33,7 +33,7 @@ for (let i = 1; i <= 100; i++) {
         console.log (i);
     }
 
-    userSpan = document.querySelector("span"); //bonus 1
+    userSpan = document.querySelector("span");
     userBr = document.createElement("br");
     userSpan.append(userBr);
 }
