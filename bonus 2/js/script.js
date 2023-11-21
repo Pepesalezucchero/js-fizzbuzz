@@ -39,7 +39,7 @@ for (let i = 1; i <= 100; i++) {
 }
 */
 
-/*Secondo bonus Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1,
+/*Secondo bonus: Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1,
 a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
 */
 
@@ -50,17 +50,17 @@ for (let i = 1; i <= 100; i++) {
 
     //I multipli di 3 e di 5 avranno la scritta FizzBuzz
     if (i % 3 === 0 && i % 5 === 0) {
-        square = `<div class="square red">${"FizzBuzz"}</div>`;
+        square = `<div class="square red">FizzBuzz</div>`;
         console.log ("FizzBuzz");
         
     //I multipli di 3 avranno la scritta Fizz
     } else if (i % 3 === 0) {
-        square = `<div class="square green">${"Fizz"}</div>`;
+        square = `<div class="square green">Fizz</div>`;
         console.log ("Fizz");
 
     //I multipli di 5 avranno la scritta Buzz
     } else if (i % 5 === 0) {
-        square = `<div class="square yellow">${"Buzz"}</div>`;
+        square = `<div class="square yellow">Buzz</div>`;
         console.log ("Buzz");
 
     //tutti gli altri
